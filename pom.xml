@@ -22,7 +22,6 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
 
         <!-- Dependencies Version -->
-<!--        <selenium-java.version>3.141.59</selenium-java.version>-->
         <selenide.version>5.14.2</selenide.version>
         <junit-jupiter.version>5.6.2</junit-jupiter.version>
         <junit-platform.version>1.6.2</junit-platform.version>
@@ -30,13 +29,6 @@
     </properties>
 
     <dependencies>
-
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.seleniumhq.selenium</groupId>-->
-<!--            <artifactId>selenium-java</artifactId>-->
-<!--            <version>${selenium-java.version}</version>-->
-<!--        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/com.codeborne/selenide -->
         <dependency>
