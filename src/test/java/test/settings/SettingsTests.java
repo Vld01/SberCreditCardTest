@@ -19,9 +19,7 @@ public class SettingsTests {
         System.out.println("Настраиваем ресурсы если нужно");
         Configuration.startMaximized = true;
 
-        /**
-         * 1. Перейти на страницу http://www.sberbank.ru/ru/person
-         */
+        //1. Перейти на страницу http://www.sberbank.ru/ru/person
         open("https://www.sberbank.ru/ru/person");
     }
 
